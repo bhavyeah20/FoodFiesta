@@ -34,8 +34,8 @@ const seedDB = async () => {
       author: "613b349088034c00169f5c7c",
       images: [
         {
-          url: "https://res.cloudinary.com/dwtkhznmd/image/upload/v1631252966/FoodFiesta/photo-1514933651103-005eec06c04b_yx9nbc.jpg",
-          filename: "FoodFiesta/photo-1514933651103-005eec06c04b_yx9nbc",
+          url: "https://res.cloudinary.com/dwtkhznmd/image/upload/v1631271104/FoodFiesta/photo-1514933651103-005eec06c04b_dbjaan.jpg",
+          filename: "FoodFiesta/photo-1514933651103-005eec06c04b_dbjaan",
         },
         {
           url: "https://res.cloudinary.com/dwtkhznmd/image/upload/v1631252807/FoodFiesta/photo-1504674900247-0877df9cc836_ufyrke.jpg",
