@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Restaurant = require("../models/restaurant");
 const cities = require("./cities");
-const { places, descriptors } = require("./seedHelpers");
+const { places, descriptors, description } = require("./seedHelpers");
 
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
@@ -46,8 +46,7 @@ const seedDB = async () => {
         type: "Point",
         coordinates: [cities[random1000].lng, cities[random1000].lat],
       },
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Veritatis maxime labore eligendi soluta adipisci vel ipsa perspiciatis perferendis iste ullam.Suscipit nobis accusamus tenetur at architecto accusantium facere odit ducimus?",
+      description: `${sample(description)}`,
       price: Math.floor(Math.random() * 20) + 10,
     });
     await restt.save();

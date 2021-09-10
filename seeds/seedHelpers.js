@@ -43,3 +43,36 @@ module.exports.places = [
   "Fine dine",
   "Family",
 ];
+
+module.exports.description = [
+  "Breakfast will knock your slippers off.",
+  "I had breakfast there this morning and dinner tonight. All were well beyond my expectations. Everything is so fresh. Best clam chowder I have ever had. Clams and linguine were out of this world. Breakfast will knock your slippers off.",
+  "The Food is Excellent",
+  "The food is excellent, generous portions and great prices. The service was fast and friendly.",
+  "I highly recommended it if you’re in the Wellfleet area. The Best Pizza Ever.",
+  "Fairway has great pizza, the best! I am picky about my pizza. Their pies are huge, not two much sauce and a great mixture of cheeses.",
+  "My husband and I had our Anniversary dinner at the Fairway last night. We sat outside on the terrace which was very pretty and private. Our waitress was wonderful and the food was absolutely delicious!! It could not have been more spectacular! We would highly recommend it to everyone!",
+  "Never Disappointed",
+  "Been coming here for 20+ years. Never disappointed. Good service combined with good food.",
+  "We always get pizza here at least once during our summer visit. Breakfasts are hardy. All menu options are tasty- truffle fries- the best!!!",
+
+  "One Of The Best Breakfasts Anywhere",
+  "They are great for any meal, but I had breakfast there this time. Such a selection including creamed chipped beef, biscuits and gravy, potato pancakes, waffles, pancakes, egg scrambles, eggs benedict, and so much more. It has charming Cape style decor with a series of small rooms and little nooks and crannies, a bar area, and outdoor seating with shade.",
+
+  "Had dinner here recently. My husband ordered the Italian calzone. It came out as a 10” size dinner portion. He claimed it was delicious. The service was excellent.",
+
+  "We have been to Fairway many times for both breakfast and dinner. It’s a family-owned restaurant, with friendly service and homestyle cooking, Their pizzas are quite popular at dinner, but In my opinion, they really excel at breakfast. Eggs are always perfectly cooked, the menu has lots of variety, and the specials are interesting. There is a good mix of sweet and savory options and even some healthy choices like scrambled egg whites and a quinoa-black bean-avocado-egg bowl. Portions are very generous. It’s popular so be prepared to wait if you come later than 8:30 AM.",
+
+  "Best place for an early morning breakfast.",
+  "The service was way above standard. Jack our server was attentive and didn’t skip a detail. My salad was spectacular! I did order a cannoli with toasted almonds on the ends and highly recommend it. Definitely will make a trip back again.",
+  "Best clam chowder I ever had. Southwest Salad was great. Homemade dinner rolls. The staff was so friendly! Will definitely visit again!",
+  "Huge portions. Amazing food. Superb service.",
+
+  "ABSOLUTELY THE VERY BEST RESTAURANT FOR BREAKFAST, LUNCH & DINNER!!!! WE LOVE THIS RESTAURANT!",
+  "We ate several times at the Fairway because the food was so good. We had breakfast at their sister location the Hole in One (which is attached to the Fairway) every morning. The pastries were delicious and fresh. When we dined for dinner, the food was also fresh and delicious.",
+  "We have had breakfast here many times in recent years and they continue to knock it out of the park. Today we sat out on the shaded patio and felt like we were having a private dining experience. Julia our server was friendly and attentive. The homemade hash was delicious as was the quinoa egg bowl, stuffed French toast, pancakes, and egg sandwich. Everything was fresh and delicious!",
+  "Group of six of us for a late dinner. Plenty of menu options and service was very good. Food was delicious and we were happy to have leftovers to take home.",
+  "Tonight was our second time in two days both for dinner. Excellent both times. Tonight I had the Caprese Salad with steak tips, fantastic and the tomatoes were fabulous. We are here a few more days and will be back. We are looking forward to trying breakfast!!",
+  "This is a wonderful restaurant for family’s and groups, and couple. It is always very very good when ever you go. It does not ever have a off night. Pizza is great, ribs great, fish fresh. Service has always been friendly and they seem very glad to see you unlike some cape restaurants.",
+  "The best breakfast in Eastham. Very friendly servers. The fresh quality of the food is a constant. They have a varied menu with a slight lean toward Italian food. The Pizza is always perfect. The cape cod Rubens are just so tasty. The chowder is among the best on the Cape. They are a year round restaurant which speaks volumes as their patrons are locals most of the year. For a good meal you will be happy with, give it a try.",
+];
