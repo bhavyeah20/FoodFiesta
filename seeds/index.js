@@ -31,7 +31,7 @@ const seedDB = async () => {
       title: `${sample(descriptors)} ${sample(places)}`,
       location: `${cities[random1000].city}, ${cities[random1000].admin_name}`,
       //Your User ID
-      author: "613af5945db76f0868602b36",
+      author: "613b349088034c00169f5c7c",
       images: [
         {
           url: "https://res.cloudinary.com/dwtkhznmd/image/upload/v1631252966/FoodFiesta/photo-1514933651103-005eec06c04b_yx9nbc.jpg",
