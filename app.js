@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const flash = require("connect-flash");
 const MongoDBStore = require("connect-mongo")(session);
-const campgroundRoutes = require("./routes/campgrounds");
+const restaurantRoutes = require("./routes/restaurants");
 const reviewRoutes = require("./routes/reviews");
 const userRoutes = require("./routes/users");
 const ExpressError = require("./utils/ExpressError");
@@ -21,7 +21,7 @@ const User = require("./models/user");
 const mongoSanitize = require("express-mongo-sanitize");
 const helmet = require("helmet");
 const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/food-fiesta";
-// const dbUrl = "mongodb://localhost:27017/camp-fiesta";
+// const dbUrl = "mongodb://localhost:27017/food-fiesta";
 
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
@@ -137,8 +137,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/campgrounds", campgroundRoutes);
-app.use("/campgrounds/:id/reviews", reviewRoutes);
+app.use("/restaurants", restaurantRoutes);
+app.use("/restaurants/:id/reviews", reviewRoutes);
 app.use("/", userRoutes);
 
 app.get("/", (req, res) => {

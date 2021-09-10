@@ -1,0 +1,101 @@
+<% layout('layouts/boilerplate') %>
+
+<div class="row">
+  <h1 class="text-center">Edit Restaurant</h1>
+  <div class="col-md-6 offset-md-3">
+    <form
+      action="/restaurants/<%= restaurant._id %>?_method=PUT"
+      method="POST"
+      class="validate-form"
+      novalidate
+      enctype="multipart/form-data"
+    >
+      <div class="mb-3">
+        <label class="form-label" for="title">Title</label>
+        <input
+          class="form-control"
+          type="text"
+          id="title"
+          required
+          name="restaurant[title]"
+          value="<%= restaurant.title  %> "
+        />
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="location">Location</label>
+        <input
+          class="form-control"
+          type="text"
+          id="location"
+          required
+          name="restaurant[location]"
+          value="<%= restaurant.location  %> "
+        />
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="price">Price</label>
+        <div class="input-group">
+          <span class="input-group-text" id="price-label">$</span>
+          <input
+            type="text"
+            class="form-control"
+            id="price"
+            placeholder="0.00"
+            required
+            name="restaurant[price]"
+            value="<%= restaurant.price  %> "
+            aria-describedby="price-label"
+          />
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="description">Description</label>
+        <textarea
+          class="form-control"
+          type="text"
+          id="description"
+          required
+          name="restaurant[description]"
+        >
+<%= restaurant.description  %></textarea
+        >
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="mb-3">
+        <label for="images" class="form-label">Add Images</label>
+        <input
+          name="image"
+          class="form-control"
+          type="file"
+          id="images"
+          multiple
+        />
+      </div>
+      <div class="mb-3">
+        <% restaurant.images.forEach((img,i) => { %>
+        <img src="<%= img.thumbnail %>" alt="" class="img-thumbnail" />
+        <div class="form-check-inline">
+          <input
+            type="checkbox"
+            id="image-<%=i%>"
+            name="deleteImages[]"
+            value="<%=img.filename%>"
+          />
+        </div>
+        <label for="image-<%=i%>">Delete?</label>
+        <% }) %>
+      </div>
+
+      <div class="mb-3">
+        <button class="btn btn-info">Update Restaurant</button>
+      </div>
+    </form>
+
+    <footer>
+      <a href="/restaurants/<%= restaurant._id  %> ">Back</a>
+    </footer>
+  </div>
+</div>
