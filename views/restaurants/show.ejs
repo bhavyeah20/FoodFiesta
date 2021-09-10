@@ -43,7 +43,7 @@
         <li class="list-group-item">
           Submitted by <%= restaurant.author.username %>
         </li>
-        <li class="list-group-item">$<%= restaurant.price %>/night</li>
+        <li class="list-group-item">&#x20b9;<%= restaurant.price %>/person</li>
       </ul>
       <% if(currentUser && restaurant.author.equals(currentUser._id)) { %>
       <div class="card-body">

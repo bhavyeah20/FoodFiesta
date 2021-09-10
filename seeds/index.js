@@ -47,7 +47,7 @@ const seedDB = async () => {
         coordinates: [cities[random1000].lng, cities[random1000].lat],
       },
       description: `${sample(description)}`,
-      price: Math.floor(Math.random() * 20) + 10,
+      price: Math.floor(Math.random() * 1000) + 200,
     });
     await restt.save();
   }
