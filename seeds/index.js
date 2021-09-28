@@ -38,8 +38,8 @@ const seedDB = async () => {
           filename: "FoodFiesta/photo-1514933651103-005eec06c04b_dbjaan",
         },
         {
-          url: "https://res.cloudinary.com/dwtkhznmd/image/upload/v1631252807/FoodFiesta/photo-1504674900247-0877df9cc836_ufyrke.jpg",
-          filename: "FoodFiesta/photo-1504674900247-0877df9cc836_ufyrke",
+          url: "https://res.cloudinary.com/dwtkhznmd/image/upload/v1631252847/FoodFiesta/photo-1504754524776-8f4f37790ca0_kdyhjm.jpg",
+          filename: "FoodFiesta/photo-1504754524776-8f4f37790ca0_kdyhjm",
         },
       ],
       geometry: {
